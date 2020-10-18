@@ -1,0 +1,6 @@
+  composer create-project --prefer-dist laravel/laravel (name project ) -> create project
+cd (name project ) -> go to project
+composer require nwidart/laravel-modules -> create modules in project
+add ( "Modules\\": "Modules/" ) in composer.json -> to see modules
+composer dump-autoload -> to see modules file in project
+php artisan module:make (name module)-> create module in modules file
